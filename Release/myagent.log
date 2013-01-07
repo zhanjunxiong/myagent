@@ -1,0 +1,70 @@
+﻿生成启动时间为 2012-11-27 17:21:49。
+     1>项目“F:\vcpro\myagent\myagent\myagent.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\myagent.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\myagent.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         F:\vc\VC\bin\CL.exe /c /I"F:\libevent-2.0.20-stable\WIN32-Code" /I"F:\libevent-2.0.20-stable\include" /Zi /nologo /W4 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt agentclient.cpp AgentSrv.cpp config.cpp dnsbase.cpp eventbase.cpp httpmessage.cpp httprequest.cpp httprespond.cpp myagent.cpp myconfig.cpp stdafx.cpp
+         agentclient.cpp
+     1>f:\vcpro\myagent\myagent\staticfun.h(16): warning C4100: “bev”: 未引用的形参
+     1>f:\vcpro\myagent\myagent\staticfun.h(24): warning C4100: “bev”: 未引用的形参
+     1>f:\vcpro\myagent\myagent\staticfun.h(35): warning C4100: “slen”: 未引用的形参
+     1>f:\vcpro\myagent\myagent\staticfun.h(35): warning C4100: “a”: 未引用的形参
+     1>f:\vcpro\myagent\myagent\staticfun.h(35): warning C4100: “listener”: 未引用的形参
+     1>f:\vcpro\myagent\myagent\staticfun.h(50): warning C4100: “bev”: 未引用的形参
+     1>f:\vcpro\myagent\myagent\staticfun.h(67): warning C4100: “bev”: 未引用的形参
+     1>f:\vcpro\myagent\myagent\staticfun.h(76): warning C4100: “bev”: 未引用的形参
+     1>f:\vcpro\myagent\myagent\staticfun.h(84): warning C4100: “bev”: 未引用的形参
+     1>agentclient.cpp(470): warning C4244: “=”: 从“int”转换到“unsigned short”，可能丢失数据
+     1>f:\vcpro\myagent\myagent\staticfun.h(35): warning C4505: “accept_cb”: 未引用的本地函数已移除
+         AgentSrv.cpp
+     1>f:\vcpro\myagent\myagent\staticfun.h(16): warning C4100: “bev”: 未引用的形参
+     1>f:\vcpro\myagent\myagent\staticfun.h(24): warning C4100: “bev”: 未引用的形参
+     1>f:\vcpro\myagent\myagent\staticfun.h(35): warning C4100: “slen”: 未引用的形参
+     1>f:\vcpro\myagent\myagent\staticfun.h(35): warning C4100: “a”: 未引用的形参
+     1>f:\vcpro\myagent\myagent\staticfun.h(35): warning C4100: “listener”: 未引用的形参
+     1>f:\vcpro\myagent\myagent\staticfun.h(50): warning C4100: “bev”: 未引用的形参
+     1>f:\vcpro\myagent\myagent\staticfun.h(67): warning C4100: “bev”: 未引用的形参
+     1>f:\vcpro\myagent\myagent\staticfun.h(76): warning C4100: “bev”: 未引用的形参
+     1>f:\vcpro\myagent\myagent\staticfun.h(84): warning C4100: “bev”: 未引用的形参
+     1>f:\vcpro\myagent\myagent\staticfun.h(50): warning C4505: “outreadereventcb”: 未引用的本地函数已移除
+     1>f:\vcpro\myagent\myagent\staticfun.h(67): warning C4505: “outreadcb”: 未引用的本地函数已移除
+     1>f:\vcpro\myagent\myagent\staticfun.h(76): warning C4505: “exchangeInput”: 未引用的本地函数已移除
+     1>f:\vcpro\myagent\myagent\staticfun.h(84): warning C4505: “exchangeOutput”: 未引用的本地函数已移除
+         config.cpp
+         dnsbase.cpp
+         eventbase.cpp
+         httpmessage.cpp
+         httprequest.cpp
+         httprespond.cpp
+         myagent.cpp
+     1>myagent.cpp(13): warning C4100: “argv”: 未引用的形参
+     1>myagent.cpp(13): warning C4100: “argc”: 未引用的形参
+         myconfig.cpp
+         stdafx.cpp
+       Link:
+         F:\vc\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\vcpro\myagent\Release\myagent.exe" /INCREMENTAL:NO /NOLOGO ws2_32.lib wsock32.lib libevent_core.lib libevent_extras.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT.lib /MANIFEST /ManifestFile:"Release\myagent.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\vcpro\myagent\Release\myagent.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\vcpro\myagent\Release\myagent.lib" /MACHINE:X86 Release\agentclient.obj
+         Release\AgentSrv.obj
+         Release\config.obj
+         Release\dnsbase.obj
+         Release\eventbase.obj
+         Release\httpmessage.obj
+         Release\httprequest.obj
+         Release\httprespond.obj
+         Release\myagent.obj
+         Release\myconfig.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         myagent.vcxproj -> F:\vcpro\myagent\Release\myagent.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\vcpro\myagent\Release\myagent.exe;#1" /manifest Release\myagent.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\myagent.unsuccessfulbuild”。
+         正在对“Release\myagent.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\vcpro\myagent\myagent\myagent.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:15.48
